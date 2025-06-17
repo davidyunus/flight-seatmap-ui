@@ -1,0 +1,38 @@
+.seat-map-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.seat-columns, .seat-row {
+  display: flex;
+}
+
+.seat-header {
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.seat-slot {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.slot-non-seat {
+  background-color: #f0f0f0;
+}
+
+.seat-available {
+  background-color: #e0ffe0;
+  border: 2px solid #4caf50;
+}
+
+.seat-taken {
+  background-color: #ffcccc;
+  border: 2px solid #f44336;
+}
