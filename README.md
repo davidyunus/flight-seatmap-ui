@@ -1,4 +1,4 @@
-flight-seatmap-ui
+### flight-seatmap-ui
 
 How to start this project
 1. clone this project
